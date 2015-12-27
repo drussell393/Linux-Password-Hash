@@ -22,3 +22,12 @@ As always, questions/comments are appreciated.
 Much Love,
 
 Dave.
+
+## Using the Sucker
+
+Pretty easy. If you're running on a Linux system, just use `chmod +x passwordhasher.py` to make
+the file executable, and then run `./passwordhasher.py`. It will ask for a password, and then a
+confirmation password. Assuming you get everything right, it will spit out a hash ready for usage
+in your `/etc/shadow` file.
+
+I may have added some neat quotes too. You're welcome.
